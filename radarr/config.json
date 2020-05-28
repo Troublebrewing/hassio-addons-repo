@@ -11,14 +11,14 @@
     "armhf"
   ],
   "ports": {
-    "7878/tcp": 7878
+    "8099/tcp": 8099
   },
   "map": [
     "backup:rw",
     "share:rw",
     "ssl"
   ],
-  "webui": "http://[HOST]:[PORT:7878]/",
+  "webui": "http://[HOST]:[PORT:8099]/",
   "boot": "auto",
   "environment": {
     "PUID": "0",
