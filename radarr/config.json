@@ -11,17 +11,22 @@
     "armhf"
   ],
   "ports": {
-    "7878/tcp": null
+    "7878/tcp": null,
+    "0/tcp": null,
+    "8099/tcp": null,
+    "1337/tcp": null
   },
   "ports_description": {
-    "7878/tcp": "Web interface (Not required for Hass.io Ingress)"
+    "7878/tcp": "Web interface only. Not required for Ingress)"
+    "0/tcp": null,
+    "8099/tcp": null,
+    "1337/tcp": null
   },
   "map": [
     "backup:rw",
     "share:rw",
     "ssl"
   ],
-  "auth_api": true,
   "webui": "http://[HOST]:[PORT:7878]",
   "boot": "auto",
   "environment": {
@@ -30,9 +35,6 @@
   },
   "options": {},
   "schema": {},
-  "ingress": true,
-  "ingress_port": 1337,
   "panel_title": "Radarr",
-  "panel_admin": true,
   "panel_icon": "mdi:movie-roll"
 }
