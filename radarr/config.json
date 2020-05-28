@@ -11,7 +11,10 @@
     "armhf"
   ],
   "ports": {
-    "7878/tcp": 7878
+    "7878/tcp": null
+  },
+  "ports_description": {
+    "7878/tcp": "Web interface (Not required for Hass.io Ingress)"
   },
   "map": [
     "backup:rw",
@@ -28,7 +31,7 @@
   "options": {},
   "schema": {},
   "ingress": true,
-  "ingress_port": 7878,
+  "ingress_port": 1337,
   "panel_title": "Radarr",
   "panel_admin": true,
   "panel_icon": "mdi:movie-roll"
