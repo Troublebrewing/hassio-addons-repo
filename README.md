@@ -1,10 +1,10 @@
-# Marcelveldt's Add-ons for Home Assistant
+# Troublebrewing's Add-ons for Home Assistant
 
 ![Project Stage][project-stage-shield]
 [![Community Forum][forum-shield]][forum]
 
 ## About
-I created this repo to store the addons I use and/or created myself but as some add-ons might come in handy for others too I decided to make the repo public.
+I forked marcelveldt's repo to attempt to integrate ingress into some of his addons. Refer to his repo for further guidance/bugfixes/issues.
 
 ## Installation
 
@@ -13,7 +13,7 @@ pretty easy. Follow [the official instructions][third-party-addons] on the
 website of Home Assistant, and use the following URL:
 
 ```txt
-https://github.com/marcelveldt/hassio-addons-repo
+https://github.com/troublebrewing/hassio-addons-repo
 ```
 
 ## Add-ons provided by this repository
