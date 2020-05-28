@@ -17,7 +17,7 @@
     "1337/tcp": null
   },
   "ports_description": {
-    "7878/tcp": "Web interface only. Not required for Ingress)"
+    "7878/tcp": "Web interface only. Not required for Ingress)",
     "0/tcp": null,
     "8099/tcp": null,
     "1337/tcp": null
