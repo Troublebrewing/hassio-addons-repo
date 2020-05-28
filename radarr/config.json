@@ -35,6 +35,7 @@
   },
   "options": {},
   "schema": {},
+  "ingress", true,
   "panel_title": "Radarr",
   "panel_icon": "mdi:movie-roll"
 }
